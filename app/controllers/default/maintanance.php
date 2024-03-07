@@ -1,6 +1,9 @@
 <?php
 // app/controllers/default/maintanance.php
 
+// Include the bootstrap variables
+include __DIR__.'/../../project.php';
+
 // Change this to your twig directory
 // Its instance is at '/views/'
 $twig_dir='/default/'; // meaning /views/default/
@@ -20,6 +23,7 @@ $title="Site is under Maintanance!";
  echo $template->render([
     
     'title' => $title,
+    'contact' => $MAINTANANCE_EMAIL,
     // add more as you want
 
 ]);

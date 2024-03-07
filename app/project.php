@@ -26,7 +26,7 @@ $MAINTANANCE_EMAIL="customercare@webasitename.com"; // Put the organization's cu
  *     3=> "maintanance"
  * 
  * ***********************************************/
-$PROJECT_STATUS=2;
+$PROJECT_STATUS=1;
 
 
 
@@ -37,7 +37,7 @@ $PROJECT_STATUS=2;
 /************  DATABASE SERVER SETTINGS *************|
  *  Currently db: mysql
  * 
- * 
+ *  Change them to your database settings
  * 
  * 
  * 
@@ -45,7 +45,7 @@ $PROJECT_STATUS=2;
 $SERVER_NAME="localhost";
 $USERNAME="root";
 $PASSWORD="";
-$DATABASE="masterplan";
+$DATABASE="masterplan_db"; 
 
 
 
