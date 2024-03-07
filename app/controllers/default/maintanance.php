@@ -2,7 +2,7 @@
 // app/controllers/default/maintanance.php
 
 // Include the bootstrap variables
-include __DIR__.'/../../project.php';
+require_once __DIR__.'/../../project.php';
 
 // Change this to your twig directory
 // Its instance is at '/views/'
