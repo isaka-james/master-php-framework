@@ -9,7 +9,7 @@ include __DIR__.'/../../project.php';
 $twig_dir='/default/'; // meaning /views/default/
 
 // Don't change this!
-require_once __DIR__.'/../Helpers/twig.php';
+require_once __DIR__.'/../../Helpers/twig.php';
  
 
 // Load the Twig template
