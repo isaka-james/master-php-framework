@@ -24,7 +24,7 @@ $title="Page Not Found!";
     
     'title' => $title,
     'website' => $PROJECT_NAME,
-    'year' => date("Y");
+    'year' => date("Y"),
     // add more as you want
 
 ]);
