@@ -1,0 +1,1 @@
+the server views the folders like /test
