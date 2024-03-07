@@ -8,9 +8,8 @@
 \***************************************************************/
 
 $routes = [
-    '/' => 'homePage',
-    '/about' => 'aboutPage',
-    '/contact' => 'contactPage',
+  '/' => 'indexController',
+
     // .. add routes
 
 ];

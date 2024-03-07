@@ -12,7 +12,7 @@ include_once __DIR__.'/../project.php';
 
 if($PROJECT_STATUS==3){
     require_once __DIR__.'/../controllers/default/maintanance.php';
-
+    exit;
 
 
 }
@@ -21,8 +21,3 @@ if($PROJECT_STATUS==3){
 
 
 
-
-// // Import the DataBase Class
-// include __DIR__.'/database-master.php';
-
-// // To use database now we have $database variable

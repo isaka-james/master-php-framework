@@ -39,7 +39,9 @@ if (array_key_exists($url, $routes)) {
     // Handle the special case first => 404 Error
     if($routes[$url]=="notFoundPage"){
         require_once __DIR__.'/../controllers/default/404.php';
+        exit;
 
+    // Handle the test page
     }else if($routes[$url]=="testPage"){
         require_once __DIR__.'/../../testing/test1.php';
         exit;
