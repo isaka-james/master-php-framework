@@ -9,7 +9,7 @@
  ************************************************/
 
 
-$PROJECT_NAME="";
+$PROJECT_NAME="myproject";
 $PROJECT_VERSION="v0.0.1";
 $PROJECT_OWNER="";
 $MAINTANANCE_EMAIL="customercare@webasitename.com"; // Put the organization's customer care email or phone
