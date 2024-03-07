@@ -93,6 +93,8 @@ Now, as you have seen, we need to create a file named *HelloWorld.twig* at `view
 </body>
 </html>
 ```
+
+
 ## Running the server:
 As mentioned earlier, this framework is tailored for those who seek control over their projects (*vanilla PHP*). Running the server is the same as with vanilla PHP.
 
@@ -112,7 +114,9 @@ Simply place your files in your server's root directory, typically inside '/publ
 ```
 
 ## Want to explore more?:
-I can't cover all the intricacies here, but I highly recommend it for vanilla PHP developers to have the best experience.
+The project variables are found here `app/project.php`, here you can put the project name, contacts, show if the project is development/production/maintanance, database connection and many..
+
+I can't cover all the intricacies here, I put alot of comments to make life easier for you. Also I highly recommend it for vanilla PHP developers to have the best experience.💪
 
 ## Contributions Needed:
 I eagerly await your pull requests. If you have any ideas or logic to implement in this framework, you are warmly welcomed!
