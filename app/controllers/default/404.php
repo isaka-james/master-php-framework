@@ -1,6 +1,9 @@
 <?php
 // app/controllers/default/404.php
 
+// The project bootstrap
+include __DIR__.'/../../project.php';
+
 // Change this to your twig directory
 // Its instance is at '/views/'
 $twig_dir='/default/'; // meaning /views/default/
@@ -20,6 +23,8 @@ $title="Page Not Found!";
  echo $template->render([
     
     'title' => $title,
+    'website' => $PROJECT_NAME,
+    'year' => date("Y");
     // add more as you want
 
 ]);
